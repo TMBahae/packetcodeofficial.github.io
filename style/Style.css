@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    height: 10vh;
+    background: #262626;
+  
+}
+
+
+.nav-s {
+    display: grid;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    grid-template-columns:3% 67% 10% 10% 10%;
+    align-items: center;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.Titel {
+    color: white;
+    font-size: 30px;
+    font-family: Righteous;
+}
+
+
+.Main-page {
+    background-color: #171717;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.Main-page-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Main-page-Titel {
+    color: white;
+    font-size: 70px;
+    font-family: Righteous;
+    margin-left: 10%;
+}
+
+.Main-page-join-btn {
+    background-color: #5272ee;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-family: Do Hyeon;
+    font-size: 20px;
+    width: 20vh;
+    height: 6vh;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 10%;
+}
+
+.Main-page-join-btn:hover {
+    background-color: transparent;
+    border: solid 2px #5272ee;
+    cursor: pointer;
+    margin-left: 12%;
+}
+
+.Main-page-p {
+    color: rgb(123, 123, 123);
+    font-family: Do Hyeon;
+    text-align: left;
+}
+
+
+.Main-page-img {
+    margin: 3%;
+    animation: Mainimg 10s ease-in-out;
+}
+
+@keyframes Mainimg {
+    0% {
+        transform: rotateY(0deg);
+
+    }
+    50% {
+        transform: rotateY(-20deg);
+
+    }
+    100% {
+        transform: rotateY(0deg);
+
+    }
+}
+/*
+.Joinpannel {
+    background-color: #2c2c2c;
+    border-radius: 7px;
+    box-shadow: black 0 0 2px 0;
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.jointitel {
+    font-size: 20px;
+    font-family: Righteous;
+    color: white;
+}
+
+.icon {
+    width: 120px;
+    height: 120px;
+}
+
+.serverpannelhoder {
+    height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.joinbtn {
+    background-color: #5272ee;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: Do Hyeon;
+    font-size: 20px;
+    width: 35vh;
+    height: 5vh;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.joinbtn:hover {
+    background-color: #3d52a7;
+}
+
+.about {
+    background: white;
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 3;
+}*/
+
+.AboutDiv {
+    background-color: white;
+    height: 108vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.AboutDiv-Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.AboutDiv-Titel {
+    margin-top: -5%;
+    font-family: Righteous;
+    margin-left: 10%;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Do Hyeon;
+    text-align: left;
+    color: rgb(94, 94, 94);
+    font-size: 25px;
+}
+
+.AboutDiv-Learnmore {
+    background-color: #5272ee;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-family: Do Hyeon;
+    font-size: 20px;
+    width: 20vh;
+    height: 6vh;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 10%;
+}
+
+.AboutDiv-Learnmore:hover {
+    background-color: transparent;
+    border: solid 2px #5272ee;
+    color: black;
+    cursor: pointer;
+    margin-left: 12%;
+}
+
+.Partner-image {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.Invite-To-Server {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background: linear-gradient(black  , transparent);
+    background-image: url(file:///C:/Users/HP/Desktop/TM/PDF/The%20English%20Hub/img/Join%20BG.png);
+}
+
+.Invite-To-Server-Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.Invite-To-Server-join-btn {
+    background-color: #5272ee;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-family: Do Hyeon;
+    font-size: 20px;
+    width: 20vh;
+    height: 6vh;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Invite-To-Server-join-btn:hover {
+    background-color: transparent;
+    border: solid 2px #5272ee;
+    cursor: pointer;
+    margin-left: 5%;
+}
+
+.Invite-To-Server-Titel {
+    color: white;
+    font-family: Righteous;
+    font-size: 40px;
+}
+
+.Invite-To-Server-p {
+    margin-left: 0;
+    color: rgb(114, 114, 114);
+}
+
+.Invite-To-Server-img {
+    position: absolute;
+    right: 12%;
+}
+
+.Invite-To-Server-img-div {
+    position: relative;
+    top: -200px;
+    transform: rotateY(10deg);
+}
+
+.suppot-div {
+    margin-left: -10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    background-image: url(file:///C:/Users/HP/Desktop/TM/PDF/The%20English%20Hub/img/Support.png);   
+    background-repeat: no-repeat;
+}
+
+.support-div-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+}
+
+.support-text-titel {
+    font-family: Righteous;
+    color: #171717;
+    font-size: 50px;
+    margin-left: 10%;  
+}
+
+.support-div-img {
+    position: absolute;
+    right: 12%;
+}
+
+.footer { 
+    font-family: Righteous;
+    background-color: #171717;
+    height: 10vh;
+    color: rgb(79, 79, 79);
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-Titel {
+    font-size: 25px;
+    font-family: Righteous;
+    text-decoration: underline;
+    margin-left: 15px;
+}
+
+h5 {
+    font-size: 15px;
+    margin-left: 15px;
+    padding-bottom: 10px;
+}
+
+
+.Home:hover {
+    transition: 0.2s ease-in-out;
+    color: #96abff;
+}
+
+
+.Aboutimg {
+    position: fixed;
+    width: 100%;
+    z-index: -3;
+    top: 0;
+}
+
+.Abouttitel {
+   
+    color: white;
+    font-family: Do Hyeon;
+    font-size: 40px;
+}
+
+.aboutbanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.338);
+    width: 100%;
+    height: 30vh;
+}
+
+.aserver {
+    background: linear-gradient(45deg, rgb(228, 228, 228), white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Titell {
+    color: rgb(191, 20, 20);
+    font-family:Do Hyeon ;
+    margin-top: 5%;
+    margin-bottom: -12%;
+}
+
+.FAQ {
+    position: relative;
+    bottom: 0;
+    background-color: #242424;
+    height: 100vh;
+    
+}
+
+.FAQparagraph {
+    color: white;
+    font-family: Do Hyeon;
+}
